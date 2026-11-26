@@ -344,7 +344,7 @@ extension LivelineRenderer {
         if window <= 14_400 { return 1_800 }
         if window <= 43_200 { return 3_600 }
         if window <= 86_400 { return 7_200 }
-        if window <= 604_800 { return 86_400 }
+        if window <= 2_419_200 { return 86_400 }
         return 604_800
     }
 
